@@ -4,7 +4,7 @@ function minimumSwaps(array) {
     const position = index + 1;
     if (number !== position) {
       let indexToSwap;
-      for (let i = 0; i < array.length; i++) {
+      for (let i = index; i < array.length; i++) {
         if (array[i] === position) {
           indexToSwap = i;
           break;
