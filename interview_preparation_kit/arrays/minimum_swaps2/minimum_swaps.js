@@ -14,6 +14,7 @@ function minimumSwaps(array) {
 
       array[index] = position;
       array[indexToSwap] = number;
+      console.log(index,indexToSwap,array[index], array[indexToSwap]);
     }
   });
   return swaps;

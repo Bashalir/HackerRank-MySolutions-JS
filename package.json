@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:watch": "jest --watch",
     "lint": "eslint --ignore-path .gitignore --ext .js .",
     "format": "npm run prettier -- --write"
   },
